@@ -5,7 +5,7 @@ var karakuri = {} || karakuri;
 	
 	karakuri = function(options) {
 		var state,
-			api = {
+			ctx = {
 				transitionTo: function (newState) {
 					state = newState;					
 					return runHandler('_onEnter', arraySlice.call(arguments, 1));
@@ -16,11 +16,11 @@ var karakuri = {} || karakuri;
 			var handler = options.states[state][eventName];
 			
 			if(handler) {
-				return handler.apply(api, argumentsArray);
+				return handler.apply(ctx, argumentsArray);
 			}
 		}		
 		
-		api.transitionTo(options.initial);
+		ctx.transitionTo(options.initial);
 		
 		return {
 			handle: function(eventName) {

@@ -6,7 +6,7 @@ A micro Finite State Machine implementation in JavaScript.
 Demo
 ====
 
-Simple expanding box example:  http://jsbin.com/omuler/9/edit
+Simple expanding box example:  http://jsbin.com/hihahevonu/edit
 
 Usage
 =====
