@@ -1,0 +1,32 @@
+{
+  "name": "karakuriJS",
+  "description": "Simple Finite State Machine",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tomcask/karakuriJS.git/",
+  "author": {
+    "name": "Tomas",
+    "email": "tomcask@gmail.com",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomcask/karakuriJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomcask/karakuriJS.git//issues"
+  },
+  "licences": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "readmeFilename": "readme.md",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-qunit": "~0.2.1"
+  }
